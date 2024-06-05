@@ -23,14 +23,12 @@
                 <name>a0mawxd7rmaps-artifactory-primary-0-snapshots</name>
                 <url>https://rahjfrog.jfrog.io/artifactory/maven-pen-repo-libs-snapshot</url>
 	    </snapshotRepository>
-            <repository>
-		<uniqueVersion>true</uniqueVersion>
-		<snapshots><enabled>false</enabled></snapshots>
-		<id>central</id>
-		<name>maven-pen-repo-libs-snapshot</name>
+ 	    <repository>
+                <id>snapshots</id>
+                <name>a0mawxd7rmaps-artifactory-primary-0-snapshots</name>
 		<url>https://rahjfrog.jfrog.io/artifactory/maven-pen-repo-libs-snapshot</url>
-             </repository>
-        </distributionManagement>
+            </repository>
+	</distributionManagement>
 
 	<scm>
 		<connection>scm:git:https://github.com/Luharpee/spring-boot-3-rest-api-example.git</connection>
