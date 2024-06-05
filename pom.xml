@@ -10,7 +10,7 @@
 
 	<groupId>com.bezkoder</groupId>
         <artifactId>spring-boot-3-rest-api-example</artifactId>
-        <version>1.5.2</version>
+        <version>1.5.3-SNAPSHOT</version>
         <name>spring-boot-3-rest-api-example</name>
         <description>Spring Boot 3 Rest API example</description>
         <properties>
@@ -25,9 +25,9 @@
             </snapshotRepository>
         </distributionManagement>
 
-        <scm>
-            <connection>scm:git:ssh://git@github.com:Luharpee/spring-boot-3-rest-api-example.git</connection>
-	    <tag>spring-boot-3-rest-api-example-1.5.2</tag>
+	<scm>
+		<connection>scm:git:https://github.com/Luharpee/spring-boot-3-rest-api-example.git</connection>
+		<tag>spring-boot-3-rest-api-example-${version}</tag>
         </scm>
 
 	<dependencies>
